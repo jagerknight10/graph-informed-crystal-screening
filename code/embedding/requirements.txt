@@ -1,0 +1,12 @@
+# Embedding environment (runs embed.py on a GPU node).
+# Install the CUDA build of torch that matches the cluster's CUDA, e.g.:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+# then:
+#   pip install -r embedding/requirements.txt
+torch
+torch_geometric
+pymatgen
+huggingface_hub
+pandas
+pyyaml
+tqdm
